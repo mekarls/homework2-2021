@@ -26,34 +26,40 @@ img { /* unsure about this; office hours */
     margin: auto;
     width: 550px;
 }
-div {
-    height: 150px;
-    padding: 25px;
-}
+
 
 #red {
     background: #ff0000;
     text-align: right;
+    height: 150px;
+    padding: 25px;
 }
 
 #blue {
     background: #0000ff;
     text-align: left;
+    height: 150px;
+    padding: 25px;
 }
 
+div {
+    height: 150px;
+    padding: 25px;
+}
 #yellow { /* can probably optimize; come back to this */
     background: #ffff00;
     text-align: right;
     color: #000000;
-    text-shadow: 4px 4px 2px #c7e2c7;
+    text-shadow: 4px 4px 2px #C7E2C7;
 }
 
-#green {
+div.green {
     background: #008000;
     text-align: left;
 }
 
 footer p {
+    padding-top: 0px;
     padding-bottom: 10px;
     padding-right: 10px;
     text-align: center;
