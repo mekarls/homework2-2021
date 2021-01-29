@@ -23,7 +23,7 @@ img { /* unsure about this; office hours */
 }
 
 div {
-    height: 160px;
+    min-height: 150px;
     padding: 25px;
 }
 p {
